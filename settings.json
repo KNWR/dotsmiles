@@ -1,0 +1,65 @@
+{
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "none",
+    "workbench.activityBar.visible": false,
+    "window.zoomLevel": 0,
+    "workbench.panel.defaultLocation": "right",
+    "workbench.colorCustomizations": {
+      // "editor.background": "#000",
+      "statusBar.background": "#303030",
+      "statusBar.noFolderBackground" : "#222225",
+      "statusBar.debuggingBackground": "#511f1f"
+    },
+    "ActiveFileInStatusBar.fullpath": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "workbench.statusBar.visible": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.banditEnabled": false,
+    "python.linting.lintOnSave": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/tmp": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true,
+        "**/venv": true,
+        "**/.venv": true,
+      },
+      "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true,
+        "**/bower_components/**": true,
+        "**/dist/**": true
+    },
+    "editor.cursorBlinking": "solid",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editor.showTabs": true,
+    "editor.detectIndentation": false,
+    "ruby.format": "rubocop",
+    "ruby.useLanguageServer": true,
+    "jupyter.sendSelectionToInteractiveWindow": true,
+    "debug.javascript.autoAttachFilter": "onlyWithFlag",
+    "git.confirmSync": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+}
